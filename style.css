@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(80, 80, 80)
+}
+
+h1 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #5F7161;
+}
+
+
+img {
+  border-radius: 50%;
+  border: 3px solid rgb(191, 121, 172);
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  font-weight: bolder;
+}
+a:hover {
+  color: rgb(191, 121, 172);
+}
+
+p .linkedin {
+
+}
