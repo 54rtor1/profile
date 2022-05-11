@@ -3,30 +3,69 @@
 body {
   background-color: #fafafa;
   font-family: 'Open Sans', sans-serif;
-  color: rgb(80, 80, 80)
+  color: rgb(251, 255, 233);
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
 }
 
 h1 {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  color: #5F7161;
+  color: rgb(251, 255, 233);
+  text-align: center;
+  padding: 20px 20px 20px ;
+  ;
 }
 
+.card {
+  background-color: rgb(255, 111, 198);
+  border-radius: 10px;
+}
 
 img {
-  border-radius: 50%;
-  border: 3px solid rgb(191, 121, 172);
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  margin-bottom: 20px;
 }
 
+p {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+p .decoration {
+  margin-left: 0;
+  margin-right: 0;
+}
 a:link, a:visited {
   text-decoration: none;
-  color: rgb(80, 80, 80);
+  color: #82eb8e;
   font-weight: bolder;
 }
 a:hover {
-  color: rgb(191, 121, 172);
+  opacity: 70%;
+  color: #ddeb82;
 }
 
-p .linkedin {
+@media (max-width: 720px) {
+  .container {
+    width: 70%;
+  }
+  p {
+    font-size: 70%;
+  }
+  h1 {
+    font-size: 80%;
+  }
+
+  .decoration{
+    font-size: 60%;
+  }
 
 }
